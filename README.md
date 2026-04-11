@@ -338,8 +338,8 @@ window or are spread throughout the year.
 
 ```bash
 # Clone the repo
-git clone https://github.com/hasanDSx/Toy-Store-Analytics.git
-cd toy-store-analytics
+git clone https://github.com/hasanDSx/Toy-Store-E-Commerce.git
+cd Toy-Store-E-Commerce
 
 # Create a virtual environment
 python -m venv venv
