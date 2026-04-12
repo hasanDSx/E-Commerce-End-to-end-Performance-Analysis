@@ -1,4 +1,4 @@
-# 🏪 Toy Store E-Commerce — Analytics Report
+# 🏪 E-Commerce End-to-end Performance — Analytics Report
 
 <div align="center">
 
@@ -338,8 +338,8 @@ window or are spread throughout the year.
 
 ```bash
 # Clone the repo
-git clone https://github.com/hasanDSx/Toy-Store-E-Commerce.git
-cd Toy-Store-E-Commerce
+git clone https://github.com/hasanDSx/E-Commerce-End-to-end-Performance-Analysis.git
+cd E-Commerce-End-to-end-Performance-Analysis
 
 # Create a virtual environment
 python -m venv venv
