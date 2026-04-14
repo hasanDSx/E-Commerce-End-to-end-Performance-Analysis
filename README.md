@@ -374,11 +374,11 @@ This will:
 ```
 E-Commerce-End-to-end-Performance-Analysis/
 │
-├── e2d_analysis_report.ipynb    # Full Jupyter notebook with ETL & Analysis
-├── my_analytics.db              # DuckDB database file (created after migration)
 ├── .env.example                 # Template for environment variables (Postgres credentials)
+├── .gitignore                   # Files to ignore (including your local .env)
 ├── README.md                    # Project documentation
-└── .gitignore                   # Files to ignore (including your local .env)
+├── e2d_analysis_report.ipynb    # Full Jupyter notebook with ETL & Analysis
+└── my_analytics.db              # DuckDB database file (created after migration)
 ```
 
 ---
