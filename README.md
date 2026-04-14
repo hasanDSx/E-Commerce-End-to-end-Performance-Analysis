@@ -354,10 +354,10 @@ pip install pandas matplotlib seaborn plotly duckdb
 
 ### Run the full pipeline
 
-Open and run `Analysis_Report.ipynb` in Jupyter:
+Open and run `e2d_analysis_report.ipynb` in Jupyter:
 
 ```bash
-jupyter notebook Analysis_Report.ipynb
+jupyter notebook e2d_analysis_report.ipynb
 ```
 
 This will:
@@ -372,11 +372,13 @@ This will:
 ## 📁 Project Structure <a id="project-structure"></a>
 
 ```
-toy-store-analytics/
+E-Commerce-End-to-end-Performance-Analysis/
 │
-├── Analysis_Report.ipynb       # Full Jupyter notebook (88 cells)
-├── my_analytics.db             # DuckDB database file (generated after ETL)
-└── README.md
+├── e2d_analysis_report.ipynb    # Full Jupyter notebook with ETL & Analysis
+├── my_analytics.db              # DuckDB database file (created after migration)
+├── .env.example                 # Template for environment variables (Postgres credentials)
+├── README.md                    # Project documentation
+└── .gitignore                   # Files to ignore (including your local .env)
 ```
 
 ---
